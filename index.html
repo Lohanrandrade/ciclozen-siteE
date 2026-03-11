@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CicloZen - Recupere o Controle</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.bg-soft-pink { 
+  background-color: #000000; 
+}
+
+.text-brand-pink { 
+  color: #d4af37; 
+}
+
+.bg-brand-pink { 
+  background-color: #800020; 
+}
+
+.border-brand-pink { 
+  border-color: #d4af37; 
+}
+</style>
+
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+
+<!-- PIXEL UTMIFY -->
+<script>
+window.pixelId = "69b0c7c2d62e62ec8db14884";
+var a = document.createElement("script");
+a.setAttribute("async", "");
+a.setAttribute("defer", "");
+a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+document.head.appendChild(a);
+</script>
+
+<link rel="stylesheet" href="/index.css">
+
+</head>
+
+<body class="bg-black text-slate-200 antialiased overflow-x-hidden">
+
+<div id="root"></div>
+
+<script type="module" src="/index.tsx"></script>
+<script src="scripts.js"></script>
+
+<!-- SCRIPT DE UTMs -->
+<script
+src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+data-utmify-prevent-xcod-sck
+data-utmify-prevent-subids
+async
+defer
+></script>
+
+</body>
+</html>

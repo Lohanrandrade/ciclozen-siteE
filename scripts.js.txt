@@ -1,0 +1,7 @@
+var s = document.createElement("script");
+s.src = "https://cdn.utmify.com.br/scripts/utms/latest.js";
+s.setAttribute("data-utmify-prevent-xcod-sck", "");
+s.setAttribute("data-utmify-prevent-subids", "");
+s.async = true;
+s.defer = true;
+document.head.appendChild(s);
